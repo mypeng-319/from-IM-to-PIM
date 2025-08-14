@@ -30,17 +30,6 @@ Run experiments by executing the main.py script in the decoder/ folder:
 cd decoder
 python main.py
 ```
-Key arguments:
-
---dataset: Name of the dataset (e.g., PPSD)
---model: Model to run (e.g., PIM)
---epochs: Number of training epochs
---seed: Random seed for reproducibility
-
-Example:
-```bash
-python main.py --dataset PPSD --model PIM --epochs 100 --seed 42
-```
 
 
 
